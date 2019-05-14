@@ -13,15 +13,5 @@
         "psr-4": {
             "jalsoedesign\\PersistentOAuthGoogleClient\\": "src/"
         }
-    },
-    "repositories": [
-        {
-            "url": "https://github.com/h2ooooooo/php-cli-clipboard.git",
-            "type": "git"
-        },
-        {
-            "url": "https://github.com/h2ooooooo/CLImax.git",
-            "type": "git"
-        }
-    ]
+    }
 }
