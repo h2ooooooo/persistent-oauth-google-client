@@ -209,8 +209,14 @@ class Client {
     protected function saveAccessToken($accessToken) {
         $tokenPath = $this->config->getTokenPath();
 
-        if (!is_writable($tokenPath)) {
-            throw new \Exception(sprintf('TokenPath %s is not writable', $tokenPath));
+        $tokenPathDirectory = dirname($tokenPath);
+
+        if (!file_exists($tokenPathDirectory)) {
+            mkdir($tokenPathDirectory, 0777, true);
+        }
+
+        if (!is_writable($tokenPathDirectory)) {
+            throw new \Exception(sprintf('Tokenpath directory %s is not writable', $tokenPathDirectory));
         }
 
         file_put_contents($tokenPath, json_encode($accessToken));
