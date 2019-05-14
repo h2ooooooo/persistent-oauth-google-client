@@ -12,7 +12,7 @@ A persistent OAuth Google Client integration to solve all the OAuth stuff when u
     1. **Application type**: Public
     2. **Application name**: SimpleGoogleClient
     3. **Support email**: _(your email)_
-    4. **Add the scope for whatever API you need (this depends on the services you want)
+    4. Add the scope for whatever API you need (this depends on the services you want)
     5. **Authorized domains**: _(your domain)_
     6. **Application Homepage link**: _(a link to your website frontpage)_
     7. **Application Privacy Policy link**: _(a link to your website privacy policy)_
@@ -33,7 +33,7 @@ Examples using basic CLI can be found under the `examples/cli` directory.
 
 | Link                              | Service | Description                                        |
 |-----------------------------------|---------|----------------------------------------------------|
-| [🔗🔗🔗](./examples/cli/gmail.php) | Gmail   | Iterates through all the messages in a gmail inbox |
+| [🔗](./examples/cli/gmail.php)    | Gmail   | Iterates through all the messages in a gmail inbox |
 
 ### CLImax
 
@@ -42,4 +42,4 @@ Examples using CLImax can be found under the `examples/climax` directory.
 
 | Link                                 | Service | Description                                        |
 |--------------------------------------|---------|----------------------------------------------------|
-| [🔗🔗🔗](./examples/climax/gmail.php) | Gmail   | Iterates through all the messages in a gmail inbox |
+| [🔗](./examples/climax/gmail.php)    | Gmail   | Iterates through all the messages in a gmail inbox |
