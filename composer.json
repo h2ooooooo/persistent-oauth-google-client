@@ -1,0 +1,27 @@
+{
+    "name": "jalsoedesign/persistent-oauth-google-client",
+    "description": "A persistent oauth google client to solve the OAuth persistency (access/refresh tokens) when using server2server communication",
+    "type": "project",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "google/apiclient": "^2.2",
+        "jalsoedesign/climax": "*",
+        "jalsoedesign/cli-clipboard": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "jalsoedesign\\PersistentOAuthGoogleClient\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "url": "https://github.com/h2ooooooo/php-cli-clipboard.git",
+            "type": "git"
+        },
+        {
+            "url": "https://github.com/h2ooooooo/CLImax.git",
+            "type": "git"
+        }
+    ]
+}
